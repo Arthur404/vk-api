@@ -4,8 +4,8 @@ import {
     GET_PHOTOS_SUCCESS
 } from '../constants/Page'
 
-let photosArr = [];
-let cached = false;
+let photosArr = []
+let cached = false
 
 function makeYearPhotos(photos, selectedYear) {
     let createdYear, yearPhotos = []
@@ -68,5 +68,4 @@ export function getPhotos(year) {
         }
 
     }
-
 }
